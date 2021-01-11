@@ -1,0 +1,14 @@
+.navigation {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: $color-text;
+  list-style: none;
+  font-family: $PublicSans;
+  margin: 0;
+
+  &__item {
+      margin-right: 30px;
+  }
+}

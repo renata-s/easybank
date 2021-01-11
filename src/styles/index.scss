@@ -1,6 +1,9 @@
 @charset "utf-8";
 
+@import 'base/colors';
+@import 'base/customFonts';
 @import 'modules/header';
+@import 'modules/navigation';
 
 html,
 body {
