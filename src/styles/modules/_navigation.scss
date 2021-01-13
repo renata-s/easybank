@@ -2,13 +2,28 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: 14px;
-  color: $color-text;
   list-style: none;
-  font-family: $PublicSans;
   margin: 0;
+  padding: 0;
 
   &__item {
-      margin-right: 30px;
+    margin-right: 30px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 14px;
+    color: $color-text;
+    font-family: $PublicSans;
+    
+    &:hover,
+    &:focus {
+      border-bottom-width: 4px;
+      border-bottom-style: solid;
+      border-image: linear-gradient(-20deg, #2ab6d9, #33d35e) 1;
+      color: #2d314d;
+      padding-bottom: 28px;
+      outline: none;
+    }
   }
 }
