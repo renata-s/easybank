@@ -24,4 +24,8 @@
     height: inherit;
     margin: 0 196px 0 251px;
   }
+
+  &__button {
+    @include button;
+  }
 }

@@ -1,0 +1,13 @@
+@mixin button {
+    width: 163px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    background-image: linear-gradient(-20deg,#2ab6d9, #33d35e);
+    padding: 8px 34px 8px 33px;
+    color: #ffffff;
+    line-height: 2;
+    font-family: $PublicSans;
+    font-weight: 700;
+    font-size: 14px;
+}
