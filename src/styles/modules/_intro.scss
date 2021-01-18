@@ -1,0 +1,19 @@
+.intro {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  &__wrapper {
+    display: flex;
+    background-color: $color-surface;
+    padding: 0 0 0 165px;
+  }
+
+  &__image-bg{
+      width: 100%;
+      height: auto;
+  }
+
+}
