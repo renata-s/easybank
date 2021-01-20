@@ -31,7 +31,8 @@
     margin: 0;
     padding: 0 28px 36px 0;
     line-height: 1.5;
-    width: 447px;
+    width: 100%;
+    max-width: 447px;
   }
 
   &__button {
