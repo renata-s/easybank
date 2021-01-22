@@ -3,13 +3,11 @@
   position: relative;
   width: 100%;
   max-width: 1440px;
-  height: 656px;
   margin: 0 auto;
 
   &__wrapper {
     position: relative;
     display: flex;
-    height: 656px;
     background-color: $color-surface;
     padding: 0 0 0 165px;
   }
@@ -37,6 +35,7 @@
 
   &__button {
     @include button;
+    margin-bottom: 170px;
   }
 
   &__images {
@@ -44,6 +43,7 @@
     width: 100%;
     max-width: 800px;
     overflow: hidden;
+    height: 656px;
   }
 
   &__image-bg {
